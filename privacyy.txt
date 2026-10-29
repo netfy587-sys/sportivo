@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="description" content="Privacy Policy">
+<style>
+html,body{margin:0;padding:0;background:#fff}
+.top-nav{max-width:900px;margin:0 auto;padding:16px 20px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px}
+.top-nav a{color:#0b57d0;text-decoration:none;margin-right:16px}
+.top-nav a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<style>
+.pp-wrap{max-width:900px;margin:0 auto;padding:40px 20px;font-family:Arial,Helvetica,sans-serif;color:#222;line-height:1.75;font-size:16px}
+.pp-wrap h1{font-size:34px;margin:0 0 16px;color:#111}
+.pp-wrap h2{font-size:22px;margin:32px 0 10px;color:#111}
+.pp-wrap p,.pp-wrap li{margin:0 0 12px}
+.pp-wrap ul{padding-left:22px}
+.pp-wrap a{color:#0b57d0}
+</style>
+
+<div class="pp-wrap">
+<h1>Privacy Policy</h1>
+
+<p>Your privacy is important to us. This Privacy Policy explains what information this website ("we", "us", "our", or "the website") collects, how it is used, and the choices you have. By using the website, you agree to the practices described here. If you do not agree, please stop using the website.</p>
+
+<h2>1. Information We Collect</h2>
+<p>We keep data collection to a minimum. We do not require you to create an account to read our content, and we do not knowingly collect sensitive personal information such as financial details, health records, government ID numbers, or similar data.</p>
+<p>When you visit the website, we and our service providers may automatically collect non-identifying technical information, including:</p>
+<ul>
+<li>IP address and approximate location (such as country or city).</li>
+<li>Browser type and version, device type, screen size, and operating system.</li>
+<li>Pages visited, time spent on pages, links clicked, and the website you came from.</li>
+<li>Cookie identifiers and similar online identifiers.</li>
+</ul>
+
+<h2>2. Nature of This Website and Prohibited Content</h2>
+<p>This website is created for general information and entertainment purposes only. To be completely clear about what this website is and is not:</p>
+<ul>
+<li>This website does <strong>not</strong> involve real money in any way. We do not accept, hold, transfer, or pay out real money, and we do not offer any real-money games, bets, wagers, or prizes.</li>
+<li>This website is <strong>not</strong> a casino, gambling, betting, lottery, or sweepstakes website, and it is not related to any of these activities.</li>
+<li>This website does <strong>not</strong> engage in, promote, or encourage any illegal activity, including but not limited to fraud, scams, hacking, piracy, illegal drugs, or any other unlawful conduct.</li>
+<li>This website does <strong>not</strong> offer or promote financial services, investment schemes, loans, "get rich quick" offers, or earning-money claims.</li>
+<li>This website does <strong>not</strong> contain or promote adult, violent, hateful, or otherwise harmful content.</li>
+<li>We do not ask you for payment, bank details, card numbers, or any financial information.</li>
+</ul>
+<p>If you see anything on this website that appears to go against the statements above, please contact us so we can review and remove it.</p>
+
+<h2>3. How We Use Information</h2>
+<ul>
+<li>To operate, secure, and improve the website and its content.</li>
+<li>To understand how visitors use the website, using aggregated analytics.</li>
+<li>To show advertising and measure how well it performs.</li>
+<li>To detect and prevent fraud, abuse, spam, and invalid traffic.</li>
+<li>To comply with applicable laws and legal requests.</li>
+</ul>
+<p>We do not sell your personal information to anyone.</p>
+
+<h2>4. Cookies and Similar Technologies</h2>
+<p>Cookies are small text files stored on your device. We and our partners use cookies, pixels, and similar technologies for the following purposes:</p>
+<ul>
+<li><strong>Essential:</strong> to make the website function properly and securely.</li>
+<li><strong>Analytics:</strong> to learn how visitors use the website so we can improve it.</li>
+<li><strong>Advertising:</strong> to show ads, limit how often you see the same ad, and measure ad performance.</li>
+</ul>
+<p>You can block or delete cookies in your browser settings. If you do, some parts of the website may not work as intended, and the ads you see may be less relevant.</p>
+
+<h2>5. Advertising and Google</h2>
+<p>This website uses Google advertising services. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website and other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visit to this site and other sites on the internet.</p>
+<p><strong>Our advertising and promotion policy:</strong> We do not promote, advertise, or link to casino, gambling, betting, real-money gaming, adult, or illegal products or services on this website. Ads shown on this website are served automatically by third-party advertising partners such as Google, and they are subject to those partners' policies. If you see an ad that you believe is inappropriate, misleading, or related to gambling or illegal activity, please contact us and you can also report it directly to the ad provider, and we will work to have it blocked.</p>
+<p>You may opt out of personalized advertising by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ads Settings</a>. You can also opt out of some third-party vendors' use of cookies for personalized advertising by visiting <a href="https://www.aboutads.info" target="_blank" rel="noopener">www.aboutads.info</a>. To learn how Google uses data from sites that use its services, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+<p>Where required by law, such as in the European Economic Area, the United Kingdom, and Switzerland, ads personalization and cookie use depend on your consent, and you can change your choice at any time.</p>
+
+<h2>6. Analytics</h2>
+<p>We may use analytics services, such as Google Analytics, to understand website traffic. These services collect information through cookies and similar technologies and report it to us in aggregated form. You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a>.</p>
+
+<h2>7. How We Share Information</h2>
+<p>We share information only in these limited cases:</p>
+<ul>
+<li>With service providers that help us run the website, such as hosting, analytics, and advertising partners, who may only use it for those services.</li>
+<li>When required by law, court order, or a valid request from public authorities.</li>
+<li>To protect the rights, property, or safety of the website, our visitors, or others.</li>
+<li>In connection with a merger, acquisition, or transfer of the website.</li>
+</ul>
+
+<h2>8. Legal Bases (EEA, UK, and Switzerland)</h2>
+<p>If you are located in these regions, we process information based on your consent (for cookies and personalized ads), our legitimate interests (operating, securing, and improving the website), and legal obligations.</p>
+
+<h2>9. Your Privacy Rights</h2>
+<p>Depending on where you live, you may have rights over your personal information, including the right to know what is collected, to access, correct, or delete it, to object to or restrict processing, to withdraw consent at any time, and to opt out of the sale or sharing of personal information. We do not sell personal information. California residents may also have rights under the CCPA/CPRA, including the right to limit certain uses and not to be discriminated against for exercising their rights.</p>
+<p>You can manage most choices yourself through your browser cookie settings, your device advertising settings, and the Google opt-out links in this policy.</p>
+
+<h2>10. Do Not Track and Global Privacy Control</h2>
+<p>Some browsers send "Do Not Track" or Global Privacy Control signals. Where required by law, we honor opt-out preference signals. Because there is no uniform industry standard for Do Not Track, the website may not respond to every such signal.</p>
+
+<h2>11. Data Retention and Security</h2>
+<p>We keep information only as long as it is needed for the purposes described in this policy or as required by law. We use reasonable technical and organizational safeguards to protect information, but no method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
+
+<h2>12. Third-Party Websites</h2>
+<p>The website may link to or display content from third-party websites and advertisers. We do not control these sites and are not responsible for their content or privacy practices. We encourage you to read their privacy policies.</p>
+
+<h2>13. Children's Privacy</h2>
+<p>This website is intended for adults and is not directed to children under 13 (or under 16 where applicable law sets a higher age). We do not knowingly collect personal information from children. If you believe a child has provided personal information, please stop using the website and clear your cookies; we do not knowingly keep such data.</p>
+
+<h2>14. International Data Transfers</h2>
+<p>Information may be processed on servers located outside your country, where data protection laws may differ. We take reasonable steps so that your information remains protected when transferred.</p>
+
+<h2>15. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time to reflect changes in law or our practices. The updated version applies as soon as it is posted on this page. Please review it periodically; continued use of the website means you accept the updated policy.</p>
+</div>
+</body>
+</html>

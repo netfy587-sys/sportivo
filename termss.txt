@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms and Conditions</title>
+<meta name="description" content="Terms and Conditions">
+<style>
+html,body{margin:0;padding:0;background:#fff}
+.top-nav{max-width:900px;margin:0 auto;padding:16px 20px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px}
+.top-nav a{color:#0b57d0;text-decoration:none;margin-right:16px}
+.top-nav a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<style>
+.tc-wrap{max-width:900px;margin:0 auto;padding:40px 20px;font-family:Arial,Helvetica,sans-serif;color:#222;line-height:1.75;font-size:16px}
+.tc-wrap h1{font-size:34px;margin:0 0 16px;color:#111}
+.tc-wrap h2{font-size:22px;margin:32px 0 10px;color:#111}
+.tc-wrap p,.tc-wrap li{margin:0 0 12px}
+.tc-wrap ul{padding-left:22px}
+.tc-wrap a{color:#0b57d0}
+</style>
+
+<div class="tc-wrap">
+<h1>Terms and Conditions</h1>
+
+<p>Please read these Terms and Conditions ("Terms") carefully. By accessing or using this website ("we", "us", "our", or "the website"), you confirm that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not agree, please do not use the website.</p>
+
+<h2>1. Eligibility</h2>
+<p>You must be at least 18 years old, or the age of majority in your country, to use this website. By using it, you confirm that you meet this requirement and that your use complies with the laws that apply to you.</p>
+
+<h2>2. Permitted Use</h2>
+<p>You may use the website for lawful, personal, and non-commercial purposes. You agree not to:</p>
+<ul>
+<li>Violate any applicable law or regulation.</li>
+<li>Click on ads repeatedly or artificially, use bots, scripts, or automated tools to generate traffic or clicks, or otherwise create invalid activity.</li>
+<li>Attempt to gain unauthorized access to the website, its servers, or any connected systems.</li>
+<li>Upload or transmit viruses, malware, or any harmful or disruptive code.</li>
+<li>Scrape, copy, or republish content in bulk without permission.</li>
+<li>Use the website to harass, defraud, deceive, or harm others.</li>
+</ul>
+
+<h2>3. Informational Purpose Only</h2>
+<p>All content on this website is provided for general information and education only. It is not professional, legal, financial, medical, or any other expert advice, and it should not be relied on as such. Before making any decision, consult a qualified professional. Any action you take based on information from this website is at your own risk.</p>
+
+<h2>4. Accuracy and Updates</h2>
+<p>We aim to keep content accurate and current, but we do not guarantee that it is complete, reliable, or free of errors. Content, features, and availability may change or be removed at any time without notice.</p>
+
+<h2>5. Intellectual Property</h2>
+<p>Unless stated otherwise, the text, graphics, logos, images, layout, and other materials on the website are owned by or licensed to us and are protected by copyright and other intellectual property laws. You may view and print content for personal, non-commercial use, provided you keep all copyright notices intact. Any other use requires our prior written permission. Names, logos, and trademarks of third parties belong to their respective owners.</p>
+
+<h2>6. Advertising and Third-Party Content</h2>
+<p>The website displays advertisements served by third parties, including Google, and may contain links to third-party websites. Ads and links are provided for your convenience. We do not control, endorse, or guarantee any third-party website, product, service, or offer, and we are not responsible for their content, accuracy, or privacy practices. Any interaction or transaction you have with a third party is solely between you and that party.</p>
+
+<h2>7. No Endorsement or Guarantee of Results</h2>
+<p>Nothing on this website is a promise or guarantee of any result, outcome, income, or benefit. References to any product, service, or topic are for information only and do not constitute a recommendation.</p>
+
+<h2>8. Disclaimer of Warranties</h2>
+<p>The website and all content are provided on an "as is" and "as available" basis, without warranties of any kind, express or implied, including accuracy, fitness for a particular purpose, non-infringement, and uninterrupted or error-free operation.</p>
+
+<h2>9. Limitation of Liability</h2>
+<p>To the fullest extent permitted by law, we and our owners, contributors, and partners are not liable for any direct, indirect, incidental, special, or consequential damages, or any loss of data, profits, or goodwill, arising from your use of or inability to use the website, or from reliance on any content, ads, or linked websites.</p>
+
+<h2>10. Indemnification</h2>
+<p>You agree to defend and hold us harmless from any claims, damages, losses, and expenses arising from your misuse of the website or your breach of these Terms.</p>
+
+<h2>11. Privacy and Cookies</h2>
+<p>Your use of the website is also governed by our Privacy Policy, which explains how information is collected and used, including the use of cookies and advertising technologies.</p>
+
+<h2>12. Suspension and Termination</h2>
+<p>We may restrict or block access to the website at any time, without notice, if we believe you have violated these Terms or applicable law.</p>
+
+<h2>13. Changes to These Terms</h2>
+<p>We may update these Terms from time to time. Changes apply as soon as they are posted on this page. Your continued use of the website after changes are posted means you accept the updated Terms.</p>
+
+<h2>14. General</h2>
+<p>If any part of these Terms is found to be unenforceable, the remaining parts stay in effect. Our failure to enforce any provision is not a waiver of it. These Terms, together with the Privacy Policy, are the entire agreement between you and us regarding use of the website, and they are interpreted under the laws applicable in the jurisdiction where the website is operated.</p>
+</div>
+</body>
+</html>

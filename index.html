@@ -27,6 +27,12 @@
 }
 </script>
 
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
+</script>
+
 <!-- Google AdSense script: paste your own code here -->
 <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
 
@@ -59,10 +65,8 @@ li{margin-bottom:8px}
 section:nth-of-type(even) .card{background:var(--bg)}
 .card h3{margin-top:0}
 .figure{margin:26px 0}
-.figure img{width:100%;max-height:460px;object-fit:cover;border-radius:10px;background:#cfe3da}
+.figure svg{width:100%;height:auto;max-height:460px;border-radius:10px;display:block}
 .figure figcaption{font-size:14px;color:var(--muted);margin-top:6px}
-.ad{margin:30px auto;padding:10px;text-align:center;background:#eef3f0;border:1px dashed #b7c9c0;border-radius:8px;min-height:100px;width:100%}
-.ad small{display:block;font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
 table{width:100%;border-collapse:collapse;margin:20px 0}
 th,td{border:1px solid #cfdcd5;padding:12px;text-align:left;font-size:15px}
 th{background:var(--green);color:var(--white)}
@@ -73,6 +77,12 @@ footer{background:var(--dark);color:#c5d8cf;padding:44px 5% 24px;font-size:15px}
 footer a{color:#e8f3ee;margin-right:18px;text-decoration:none}
 footer a:hover{color:var(--accent)}
 .foot-links{margin:14px 0}
+#consent{position:fixed;left:0;right:0;bottom:0;z-index:100;background:#0f2a22;color:#e8f3ee;padding:18px 5%;display:none;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:15px;box-shadow:0 -4px 18px rgba(0,0,0,.25)}
+#consent p{margin:0;flex:1 1 420px}
+#consent a{color:#f5a623}
+#consent button{border:0;border-radius:6px;padding:10px 22px;font-size:15px;cursor:pointer;font-weight:700}
+#c-accept{background:#f5a623;color:#0f2a22}
+#c-reject{background:transparent;color:#e8f3ee;border:1px solid #8fb3a4!important}
 @media(max-width:700px){nav a{margin:0 12px 0 0}.nav{gap:10px}.hero{padding:56px 5%}body{font-size:16px}}
 </style>
 </head>
@@ -108,7 +118,19 @@ footer a:hover{color:var(--accent)}
   <p>Sportivo is an educational website about sports. Our goal is simple: to give readers accurate, easy-to-read information about different sports, the physical and social benefits of staying active, and the basic safety knowledge every player should have. We do not sell products, run betting services or promote any team or brand. This page is general information only.</p>
   <p>Whether you want to try a new game, help a child pick an activity, or understand why warm-ups matter, the sections below walk through the essentials step by step.</p>
   <figure class="figure">
-    <img src="images/sports-community-field.jpg" alt="Group of people playing a friendly outdoor sports match" loading="lazy" width="1400" height="700">
+    <svg viewBox="0 0 1400 600" role="img" aria-label="Illustration of people playing a friendly outdoor sports match on a green field" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe3f5"/><stop offset="1" stop-color="#eaf7fb"/></linearGradient></defs>
+<rect width="1400" height="600" fill="url(#sky1)"/>
+<circle cx="1180" cy="110" r="52" fill="#ffd86b"/>
+<path d="M0 330 Q200 250 400 330 T800 320 T1200 330 T1400 300 V600 H0Z" fill="#7fbf8e"/>
+<rect y="380" width="1400" height="220" fill="#2e9a62"/>
+<g stroke="#fff" stroke-width="5" fill="none" opacity=".85"><rect x="120" y="415" width="1160" height="150"/><line x1="700" y1="415" x2="700" y2="565"/><circle cx="700" cy="490" r="42"/><rect x="120" y="455" width="60" height="70"/><rect x="1220" y="455" width="60" height="70"/></g>
+<g><circle cx="330" cy="440" r="16" fill="#f1c27d"/><rect x="316" y="456" width="28" height="48" rx="8" fill="#e63946"/><rect x="318" y="500" width="9" height="34" fill="#222"/><rect x="333" y="500" width="9" height="34" fill="#222"/></g>
+<g><circle cx="520" cy="470" r="16" fill="#8d5524"/><rect x="506" y="486" width="28" height="48" rx="8" fill="#e63946"/><rect x="508" y="530" width="9" height="30" fill="#222"/><rect x="523" y="530" width="9" height="30" fill="#222"/></g>
+<g><circle cx="860" cy="440" r="16" fill="#c68642"/><rect x="846" y="456" width="28" height="48" rx="8" fill="#1d4ed8"/><rect x="848" y="500" width="9" height="34" fill="#222"/><rect x="863" y="500" width="9" height="34" fill="#222"/></g>
+<g><circle cx="1040" cy="480" r="16" fill="#f1c27d"/><rect x="1026" y="496" width="28" height="48" rx="8" fill="#1d4ed8"/><rect x="1028" y="540" width="9" height="26" fill="#222"/><rect x="1043" y="540" width="9" height="26" fill="#222"/></g>
+<circle cx="640" cy="520" r="14" fill="#fff" stroke="#222" stroke-width="3"/>
+</svg>
     <figcaption>Sport is for every age and skill level – participation matters more than winning.</figcaption>
   </figure>
 
@@ -120,11 +142,6 @@ footer a:hover{color:var(--accent)}
     <li><strong>Life skills:</strong> discipline, goal setting, fair play and resilience are learned on the field.</li>
   </ul>
 </section>
-
-<div class="ad"><small>Advertisement</small>
-  <!-- Ad slot 1: paste AdSense / ad code here -->
-  <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="0000000001" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script> -->
-</div>
 
 <section id="popular">
   <h2>Popular Sports Around the World</h2>
@@ -153,14 +170,20 @@ footer a:hover{color:var(--accent)}
     <li><strong>Rest and recover.</strong> Sleep and rest days are part of training, not a break from it.</li>
   </ol>
   <figure class="figure">
-    <img src="images/beginner-training-session.jpg" alt="Coach guiding beginners during a basic training session" loading="lazy" width="1400" height="700">
+    <svg viewBox="0 0 1400 600" role="img" aria-label="Illustration of a coach guiding beginners with cones during a basic training session" preserveAspectRatio="xMidYMid slice">
+<rect width="1400" height="600" fill="#e8f3ee"/>
+<rect y="330" width="1400" height="270" fill="#3aa56d"/>
+<g stroke="#fff" stroke-width="4" opacity=".7"><line x1="0" y1="430" x2="1400" y2="430"/><line x1="0" y1="520" x2="1400" y2="520"/></g>
+<g fill="#ff7a1a"><polygon points="300,470 330,470 315,420"/><polygon points="520,470 550,470 535,420"/><polygon points="740,470 770,470 755,420"/><polygon points="960,470 990,470 975,420"/></g>
+<g fill="#fff"><rect x="305" y="452" width="20" height="6"/><rect x="525" y="452" width="20" height="6"/><rect x="745" y="452" width="20" height="6"/><rect x="965" y="452" width="20" height="6"/></g>
+<g><circle cx="1130" cy="270" r="26" fill="#8d5524"/><rect x="1105" y="298" width="50" height="95" rx="14" fill="#f5a623"/><rect x="1108" y="390" width="16" height="70" fill="#222"/><rect x="1136" y="390" width="16" height="70" fill="#222"/><path d="M1155 320 L1215 290" stroke="#8d5524" stroke-width="12" stroke-linecap="round"/><circle cx="1222" cy="286" r="8" fill="#ddd" stroke="#555" stroke-width="2"/></g>
+<g><circle cx="420" cy="330" r="20" fill="#f1c27d"/><rect x="402" y="352" width="36" height="66" rx="10" fill="#1d4ed8"/><rect x="404" y="414" width="12" height="46" fill="#222"/><rect x="424" y="414" width="12" height="46" fill="#222"/></g>
+<g><circle cx="640" cy="335" r="20" fill="#c68642"/><rect x="622" y="357" width="36" height="66" rx="10" fill="#e63946"/><rect x="624" y="419" width="12" height="46" fill="#222"/><rect x="644" y="419" width="12" height="46" fill="#222"/></g>
+<g><circle cx="860" cy="330" r="20" fill="#f1c27d"/><rect x="842" y="352" width="36" height="66" rx="10" fill="#0b6e4f"/><rect x="844" y="414" width="12" height="46" fill="#222"/><rect x="864" y="414" width="12" height="46" fill="#222"/></g>
+</svg>
     <figcaption>A qualified coach can help beginners learn correct technique early.</figcaption>
   </figure>
 </section>
-
-<div class="ad"><small>Advertisement</small>
-  <!-- Ad slot 2: paste AdSense / ad code here -->
-</div>
 
 <section id="fitness">
   <h2>Fitness Basics for Sports Participation</h2>
@@ -197,14 +220,18 @@ footer a:hover{color:var(--accent)}
     </tbody>
   </table>
   <figure class="figure">
-    <img src="images/basic-sports-equipment.jpg" alt="Assortment of basic sports equipment including balls, shoes and rackets" loading="lazy" width="1400" height="700">
+    <svg viewBox="0 0 1400 600" role="img" aria-label="Illustration of basic sports equipment: ball, racket, shuttlecock, running shoe and water bottle" preserveAspectRatio="xMidYMid slice">
+<rect width="1400" height="600" fill="#f4eede"/>
+<rect y="470" width="1400" height="130" fill="#d9c9a6"/>
+<g><circle cx="230" cy="400" r="85" fill="#fff" stroke="#222" stroke-width="5"/><polygon points="230,350 268,378 254,422 206,422 192,378" fill="#222"/><path d="M230 350V315M268 378l34-12M254 422l22 28M206 422l-22 28M192 378l-34-12" stroke="#222" stroke-width="5"/></g>
+<g transform="rotate(-20 520 330)"><ellipse cx="520" cy="250" rx="85" ry="110" fill="none" stroke="#0b6e4f" stroke-width="12"/><g stroke="#0b6e4f" stroke-width="2" opacity=".7"><path d="M440 250h160M450 210h140M450 290h140M520 140v220M480 150v200M560 150v200"/></g><rect x="510" y="360" width="20" height="140" rx="8" fill="#222"/></g>
+<g><path d="M760 420 L800 300 L840 420 Z" fill="#fff" stroke="#999" stroke-width="3"/><ellipse cx="800" cy="438" rx="40" ry="22" fill="#f5a623"/></g>
+<g><path d="M930 470 V400 Q930 360 980 365 L1060 400 Q1130 410 1160 440 V470 Z" fill="#e63946"/><rect x="920" y="466" width="250" height="20" rx="10" fill="#fff" stroke="#999" stroke-width="3"/><path d="M990 385 l16 22M1015 395 l16 22" stroke="#fff" stroke-width="5"/></g>
+<g><rect x="1230" y="330" width="70" height="150" rx="18" fill="#1d4ed8"/><rect x="1245" y="305" width="40" height="30" rx="6" fill="#222"/><rect x="1236" y="390" width="58" height="40" fill="#fff" opacity=".6"/></g>
+</svg>
     <figcaption>Good fit and condition matter more than brand names.</figcaption>
   </figure>
 </section>
-
-<div class="ad"><small>Advertisement</small>
-  <!-- Ad slot 3: paste AdSense / ad code here -->
-</div>
 
 <section id="safety">
   <h2>Injury Prevention and Safety</h2>
@@ -269,10 +296,32 @@ footer a:hover{color:var(--accent)}
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms &amp; Conditions</a>
     <a href="#disclaimer">Disclaimer</a>
+    <a href="#" onclick="try{localStorage.removeItem('sportivo_consent')}catch(e){}location.reload();return false;">Cookie Settings</a>
   </div>
   <p>&copy; <span id="yr">2026</span> Sportivo. All rights reserved.</p>
 </footer>
 
+<div id="consent" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <p>We use cookies to run this website and, with your permission, to show relevant ads and measure traffic through Google and other partners. You can accept or reject non-essential cookies. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+  <div><button id="c-reject" type="button">Reject</button> <button id="c-accept" type="button">Accept</button></div>
+</div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+<script>
+(function(){
+  var box=document.getElementById('consent'),k='sportivo_consent';
+  function set(v){
+    gtag('consent','update',{ad_storage:v,ad_user_data:v,ad_personalization:v,analytics_storage:v});
+  }
+  var saved=null;
+  try{saved=localStorage.getItem(k);}catch(e){}
+  if(saved==='granted'||saved==='denied'){set(saved);}else{box.style.display='flex';}
+  function choose(v){
+    try{localStorage.setItem(k,v);}catch(e){}
+    set(v);box.style.display='none';
+  }
+  document.getElementById('c-accept').onclick=function(){choose('granted');};
+  document.getElementById('c-reject').onclick=function(){choose('denied');};
+})();
+</script>
 </body>
 </html>
